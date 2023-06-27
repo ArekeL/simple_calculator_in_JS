@@ -29,14 +29,19 @@ input {
 
 
 button {
-    width: 40px;
-    height: 40px;
+    width: 150px;
+    height: 55px;
     font-size: 30px;
     background-color: #181818;
     color: white;
     margin: 7px;
     border-radius: 7px;
     line-height: 37px;
+}
+button:hover {
+    background-color: white;
+    color: #181818;
+    cursor: pointer;
 }
 
 h2 {
