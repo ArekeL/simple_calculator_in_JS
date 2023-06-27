@@ -3,17 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Simple calculator in JS</title>
+    <link rel="stylesheet" href="src/main.css">
 </head>
 <body>
 <div class="mainWrapper">
-    <form action="">
-        <label for="">
-            <input type=number>
-            <input type=number>
+    <form class="formWrapper">
+        <label>
+            <input class="firstInput" type="number" placeholder="First number">
+            <input class="secondInput" type="number" placeholder="Second number">
         </label>
     </form>
-    <h1 class="test"></h1>
+    <button class="addByn">+</button>
+    <button class="subtractByn">-</button>
+    <button class="multiplyByn">*</button>
+    <button class="divideByn">/</button>
+    <h2 class="resultText">Results</h2>
+    <h2 class="resultNumber1 result">Add</h2>
+    <h2 class="resultNumber2 result">Subtract</h2>
+    <h2 class="resultNumber3 result" >Multiply</h2>
+    <h2 class="resultNumber4 result">Divide</h2>
+
+
 </div>
 </body>
-    <script src="src/calc.js"></script>
+    <script src="src/App.js"></script>
 </html>
